@@ -347,15 +347,22 @@ footer{
     max-width: 576px;
     background-color: red;
 }
+
+/**badge section responsive**/
+.badge-content{
+    gap: 60px;
+    flex-direction: column;
+}
+.badge{
+    display: none;
+}
+
 /**Latest  Deals responsive**/
 .latest-deals-content{
-    text-align: center;
-}
-.latest-deals-content h2{
-    padding: 0px 0px 20px;
+    padding: 0px 20px;
 }
 .latest-deals{
-    margin: 133px 0px 120px;
+    margin: 143px 0px 51px;
 }
 
 /**discount section responsive**/
