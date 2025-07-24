@@ -344,7 +344,7 @@ footer{
 }
 @media only screen and (max-width: 576px) {
 
-    
+
 /**navbar style**/
 .header-content{
     /* max-width: 544px; */
@@ -353,5 +353,22 @@ footer{
 }
 .nav-items-section li{
     display: none;
-}    
+}
+/**hero section responsive**/
+.hero-content{
+    flex-direction: column-reverse;
+    background-color: green;
+}
+.left-hero-section{
+    padding: 28px 16px 16px;
+}
+.left-hero-section h1{
+    font-size: 1.5rem;
+}
+.left-hero-section p{
+    font-size: 0.875rem;
+}
+.right-hero-img{
+    padding-top: 0px;
+}   
 }
