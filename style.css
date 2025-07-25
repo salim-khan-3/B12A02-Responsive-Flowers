@@ -202,7 +202,7 @@
     max-width: 540px;
 }
 .flower-lover-content ul{
-    margin: 25px;
+    margin-left: 20px;
     gap: 20px;
     flex-direction: column;
 }
@@ -236,16 +236,16 @@
     text-align: center;
 }
 .grid-item-1{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-bloom.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url('./assets/deal-bloom.png');
     border-radius: 14px;
 }
 .grid-item-2{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-zabo.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url('./assets/deal-zabo.png');
     padding: 65px 48px;
     border-radius: 22px;
 }
 .grid-item-3{
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('./assets/deal-ana.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url('./assets/deal-ana.png');
     border-radius: 14px;
 }
 .grid-item:nth-child(2){
