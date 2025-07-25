@@ -369,7 +369,11 @@ footer{
 }
 .right-hero-img{
     padding-top: 0px;
-}   
+}  
+.right-hero-img img{
+    width: 100%;
+    display: block;
+} 
 /**plant section responsive**/
 .plants-content{
     gap: 28px;
@@ -390,7 +394,7 @@ footer{
     font-size: 1rem;
 }
 .card-content button{
-    padding: 19px 25px;
+    padding: 19px 0;
 }
 .card {
     width: 100%;
@@ -484,6 +488,9 @@ footer{
 }
 .include{
     font-size: 1rem;
+}
+.footer-logo{
+    width: 100%;
 }
 .footer-logo .img img{
     width: 180px;
