@@ -201,7 +201,7 @@
 
 /**badge section **/
 .spinner {    
-  animation: spin 2s ease-out infinite;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
@@ -211,7 +211,7 @@
   100% { 
     transform: rotate(360deg); 
 }
-}
+} 
 
 .badge-content{
     gap: 60px;
@@ -229,6 +229,8 @@
 .badge img{
     width: 100%;
     height: 100%;
+    filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.5));
+    border-radius: 50%;
 }
 .flower-lover-content{
     max-width: 540px;
@@ -299,6 +301,7 @@
 }
 .content p{
     font-size: 1.25rem;
+    font-weight: 700;
 }
 .grid-item-2 .content p{
     font-size: 2.5rem;
@@ -454,6 +457,7 @@ footer{
 }
 .flower-lover-content h2{
     font-size: 1.5rem;
+    margin-bottom: 16px;
 }
 .flower-lover-content ul li{
     font-size: 0.875rem;
@@ -488,9 +492,6 @@ footer{
 }
 .grid-item-2 {
     padding: 40px 24px;
-}
-.grid-item-2 .content p {
-    font-size: 1.75rem;
 }
 .grid-item-2 .content p{
     font-size: 1.25rem;
@@ -531,158 +532,3 @@ footer{
 }
 }
 
-@media only screen and (max-width: 393px) {
-/**navbar style**/
-.logo-section img{
-    width: 63px;
-    height: 38px;
-}
-.header-content{
-   margin: 13px 16px 28px;
-}
-.nav-items-section li{
-    display: none;
-}
-/**hero section responsive**/
-.hero-content{
-    flex-direction: column-reverse;
-}
-.left-hero-section{
-    padding: 28px 16px 16px;
-}
-.left-hero-section h1{
-    font-size: 1.5rem;
-}
-.left-hero-section p{
-    font-size: 0.875rem;
-}
-.right-hero-img{
-    padding-top: 0px;
-}  
-.right-hero-img img{
-    width: 100%;
-    display: block;
-} 
-/**plant section responsive**/
-.plants-content{
-    gap: 28px;
-    margin: 65px 16px 0px;
-}
-.card-container {
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    row-gap: 28.5px;
-    column-gap: 20px;
-    margin: 0px 16px 41px;
-    width: 100%;
-}
-.card-img img{
-    width: 100%;
-}
-.card-content p{
-    font-size: 1rem;
-}
-.card-content button{
-    padding: 19px 0;
-}
-.card {
-    width: 100%;
-    max-width: 171px;
-}
-.plant-section{
-    margin-bottom: 41.5px;
-}
-.plants-header-section p{
-    font-size: 0.875rem;
-}
-/**badge section responsive **/
-.badge-content{
-    gap: 18px;
-    flex-direction: column; 
-    margin: 0px 16px 143px; 
-}
-.badge{
-    display: none;
-}
-.flower-store img{
-    width: 100%;
-}
-.flower-lover-content h2{
-    font-size: 1.5rem;
-}
-.flower-lover-content ul li{
-    font-size: 0.875rem;
-    margin: 0;
-}
-/**Latest  Deals responsive**/
-.latest-deals-content{
-    padding: 16px;
-}
-.latest-deals-content h2{
-    font-size: 1.5rem;
-}
-.latest-deals-content p{
-    font-size: 0.875rem;
-}
-.latest-deals{
-    margin-bottom: 51.5px;
-}
-/**discount section responsive**/
- .discount-content {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    margin: 45px 16px 40px;
-}
-.grid-item:nth-child(2) {
-    grid-column: auto;
-    grid-row: auto;
-    order: 3;
-}
-.grid-item {
-    height: 184px;
-}
-.grid-item-2 {
-    padding: 40px 24px;
-}
-.grid-item-2 .content p {
-    font-size: 1.75rem;
-}
-.grid-item-2 .content p{
-    font-size: 1.25rem;
-}
-
-/**bunch section **/
-.bunch-section{
-    margin-top: 0px;
-}
-.bunch-content{
-    max-width: 393px;
-    height: 276px;
-}
-.input-field{
-  width: 321px;
-}
-.input-field .btn{
-    padding: 19px 12px;
-}
-.bunch-content h2{
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-/**footer content responsive**/
-.footer-content{
-    flex-direction: column;
-    padding: 50px 20px;
-    gap: 20px;
-}
-.include{
-    font-size: 1rem;
-}
-.footer-logo{
-    width: 100%;
-}
-.footer-logo .img img{
-    width: 180px;
-    height: 109px;
-}
-}
